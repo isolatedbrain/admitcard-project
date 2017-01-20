@@ -1,0 +1,11 @@
+<form action="/course/create" method="post">
+	<h2>Create course</h2>
+	<input type="text" placeholder="enter course name.." name="name"><br/>
+	<input type="text" placeholder="course fees.." name="fees"><br/>
+	<input type="text" placeholder="course duration" name="course_duration"><br/>
+	<select name="owner">
+	<% _.each(university, function (dataaa) { %>
+    <option value="<%= dataaa.id %>"><%= dataaa.uni_name %></option>
+   <% }) %>
+	<input type="submit" value="Submit">
+</form>
