@@ -43,9 +43,9 @@ module.exports.connections = {
   localMysql: {
     adapter: 'sails-mysql',
     host: 'localhost',
-    user: 'root', //optional
-    password: 'test', //optional
-    database: 'admitcard' //optional
+    user: 'bd1a3a2b6e8e7f', //optional
+    password: 'e479500a', //optional
+    database: 'heroku_4791f735128c0cb' //optional
   },
 
   /***************************************************************************
