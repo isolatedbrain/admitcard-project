@@ -38,17 +38,18 @@ module.exports.sockets = {
   * via port 6379                                                            *
   *                                                                          *
   ***************************************************************************/
-  // adapter: 'memory',
+   adapter: 'memory',
 
   //
   // -OR-
-  //
+  //  
 
-  // adapter: 'socket.io-redis',
-  // host: '127.0.0.1',
-  // port: 6379,
-  // db: 0,
-  // pass: '<redis auth password>',
+
+  adapter: 'socket.io-redis',
+  host: 'koi.redistogo.com',
+  port: 9407,
+  db: 'redistogo',
+  pass: 'de9b3012f597718cf39375ed84337e35',
 
 
 
